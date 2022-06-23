@@ -1,0 +1,18 @@
+/*
+	파일이름 : example.java
+	작성자 : 김경빈
+	작성일 : 2022년 6월 23일
+	목적 : 연습
+*/
+
+package jjj;
+
+public class example {
+	
+	public static void main(String[] args) {
+		
+		int a = 10;
+		
+		System.out.println("a + a ="+(a+a));
+	}
+}
