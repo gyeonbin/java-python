@@ -1,5 +1,4 @@
-def doB(a):
-    print(-a)
+from functiontest import *
 
 doB(3)
 doB(-3)

@@ -1,5 +1,3 @@
-def doC(n1,n2):
-    ans = (n1+n2)/2
-    print(ans)
+from functiontest import *
 
 doC(3,4)

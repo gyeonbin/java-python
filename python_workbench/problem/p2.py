@@ -1,6 +1,3 @@
-def doA(문자):
-    print(문자)
-    print(문자)
-    print(문자)
+from functiontest import *
 
 doA("안녕")
