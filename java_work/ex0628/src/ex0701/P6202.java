@@ -5,7 +5,7 @@ public class P6202 {
 	
 	public static boolean is_prime(int n) {
 		
-		if(n == 1) {
+		if(n == 1 || n == 2) {
 			return false;
 		}
 		
@@ -20,11 +20,12 @@ public class P6202 {
 	
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
-		System.out.println("소수입력");
-		int n = scan.nextInt();
-		System.out.println(is_prime(n));
-		
+//		Scanner scan = new Scanner(System.in);
+//		System.out.println("소수입력");
+//		int n = scan.nextInt();
+//		System.out.println(is_prime(n));
+		for(int i=1; i<=100; i++)
+			System.out.println(i+":"+is_prime(i));
 		
 	}
 

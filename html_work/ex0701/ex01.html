@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: red;
+            height: 100px;
+            width:100px;
+            transition-duration: 2s;
+            overflow: hidden;
+        }
+        input[type=checkbox]:checked+div{
+            height: 300px;
+        }
+        
+        li{
+            list-style: none;
+            float: left;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>checkbox에 체크하면 바로옆에 있는 태그 스타일변경</h1>
+    <input type="checkbox">
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum doloremque corrupti quam molestias tenetur! Optio ratione dolorem expedita pariatur dicta. Molestiae amet accusantium a eaque, magni quas sunt illum perferendis?
+    </div>
+    
+</body>
+</html>
