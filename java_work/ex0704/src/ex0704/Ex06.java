@@ -11,7 +11,7 @@ public class Ex06 {
 		
 		while(true) {
 			
-			System.out.println("1.입금 2.출금 3.잔금확인 4.입출금 리스트");
+			System.out.println("1.입금 2.출금 3.잔금확인 4.입출금 리스트 5.계정생성");
 			int a = scan.nextInt();
 			
 			switch (a) {
@@ -31,6 +31,8 @@ public class Ex06 {
 				break;
 			case 4:
 				System.out.println(GYEONGBIN.s);
+				break;
+			case 5:
 				break;
 			default:
 				System.out.println("잘못입력하셨습니다.");

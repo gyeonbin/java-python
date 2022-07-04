@@ -1,0 +1,9 @@
+
+    * {padding: 0px; margin: 0px; box-sizing: border-box;}
+    p::selection{background-color: red;color: white;}
+    #aa{
+        padding: 50px;
+        width: 300px;
+        height: 150px;
+        background-color: cyan;
+    }

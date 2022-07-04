@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<style>
+    p{counter-increment: rint;}
+    p::before{content: counter(rint)". ";background-color: red;border-radius: 5px;}
+    p::after{content:attr(dapa)"page";color: blueviolet;}
+    p::first-letter{font-size: 3em;}
+
+</style>
+<script>
+    $(document).ready(function()){
+        console.log($('p').attr('dapa'))
+    }
+</script>
+<body>
+    <h1>head</h1>
+    <p dapa="54">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis fugit asperiores ex voluptatibus. Corporis dicta quam ullam iure, nihil, iusto similique porro hic dolore, officia blanditiis consequatur at enim magni?</p>
+    <p dapa="5436">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis eos tempore suscipit, quia voluptates pariatur cum ipsa tenetur possimus ad dolor officia facilis, quidem atque reprehenderit vitae rerum, id error.</p>
+</body>
+</html>
