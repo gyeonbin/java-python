@@ -33,6 +33,7 @@ public class Ex06 {
 				System.out.println(GYEONGBIN.s);
 				break;
 			case 5:
+				System.out.println("사용자이름");
 				break;
 			default:
 				System.out.println("잘못입력하셨습니다.");
