@@ -11,7 +11,7 @@ myst = "한글\n잘대"
 print(myst)
 myst = "한글\t잘대"
 print(myst)
-myst = "한글\"잘대"
-print(myst)
 myst = "한글\\잘대"
+print(myst)
+myst = "한글''잘대"
 print(myst)
