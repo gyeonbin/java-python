@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="aa.AA"/>
+    <fullyQualifiedTypeName name="bb.AA"/>
+    <fullyQualifiedTypeName name="circle.Circle"/>
+    <fullyQualifiedTypeName name="p1_circle.Point"/>
+    <fullyQualifiedTypeName name="capsule_practice.Circle"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
