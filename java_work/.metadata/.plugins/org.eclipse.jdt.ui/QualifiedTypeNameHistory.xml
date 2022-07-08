@@ -9,4 +9,6 @@
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="ex0707.AAA"/>
     <fullyQualifiedTypeName name="zoo.Cat"/>
+    <fullyQualifiedTypeName name="morning.BB"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
 </qualifiedTypeNameHistroy>

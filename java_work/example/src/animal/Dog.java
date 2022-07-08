@@ -7,7 +7,7 @@ public class Dog {
 	}
 	
 	public void makeDuck() {
-		zoo.Duck();
+		
 	}
 
 }
